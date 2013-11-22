@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetalleViewController.h
 //  Transition
 //
 //  Created by Ricardo Sampayo on 21/11/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController< UIViewControllerTransitioningDelegate>
+@interface DetalleViewController : UIViewController
 
 @end
