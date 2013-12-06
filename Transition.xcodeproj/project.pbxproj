@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8BDED918515DA900DCD78B /* DismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8BDED818515DA900DCD78B /* DismissTransition.m */; };
 		3C927D9B183EE99E00080080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C927D9A183EE99E00080080 /* Foundation.framework */; };
 		3C927D9D183EE99E00080080 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C927D9C183EE99E00080080 /* CoreGraphics.framework */; };
 		3C927D9F183EE99E00080080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C927D9E183EE99E00080080 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C8BDED718515DA900DCD78B /* DismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissTransition.h; sourceTree = "<group>"; };
+		3C8BDED818515DA900DCD78B /* DismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissTransition.m; sourceTree = "<group>"; };
 		3C927D97183EE99E00080080 /* Transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C927D9A183EE99E00080080 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C927D9C183EE99E00080080 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -182,6 +185,8 @@
 			children = (
 				3C927DD1183EEC7C00080080 /* BouncyTransition.h */,
 				3C927DD2183EEC7C00080080 /* BouncyTransition.m */,
+				3C8BDED718515DA900DCD78B /* DismissTransition.h */,
+				3C8BDED818515DA900DCD78B /* DismissTransition.m */,
 			);
 			name = Transition;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				3C927DD3183EEC7C00080080 /* BouncyTransition.m in Sources */,
 				3C927DB1183EE99E00080080 /* ViewController.m in Sources */,
 				3C927DAB183EE99E00080080 /* AppDelegate.m in Sources */,
+				3C8BDED918515DA900DCD78B /* DismissTransition.m in Sources */,
 				3C927DD7183EEED500080080 /* DetalleViewController.m in Sources */,
 				3C927DA7183EE99E00080080 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				3C927DCB183EE99E00080080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C927DCC183EE99E00080080 /* Build configuration list for PBXNativeTarget "TransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				3C927DCE183EE99E00080080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
